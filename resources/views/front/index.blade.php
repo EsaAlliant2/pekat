@@ -8,27 +8,27 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Caraft</title>
+      <title>Pengaduan Masyarakat</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- owl carousel style -->
       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
       <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="{{asset('front/css/bootstrap.min.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('assets/front/css/bootstrap.min.css')}}">
       <!-- style css -->
-      <link rel="stylesheet" type="text/css" href="{{asset('front/css/style.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('assets/front/css/style.css')}}">
       <!-- Responsive-->
-      <link rel="stylesheet" href="{{asset('front/css/responsive.css')}}">
+      <link rel="stylesheet" href="{{asset('assets/front/css/responsive.css')}}">
       <!-- fevicon -->
       <link rel="icon" href="images/fevicon.png" type="image/gif" />
       <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="{{asset('front/css/jquery.mCustomScrollbar.min.css')}}">
+      <link rel="stylesheet" href="{{asset('assets/front/css/jquery.mCustomScrollbar.min.css')}}">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- owl stylesheets --> 
-      <link rel="stylesheet" href="{{asset('front/ss/owl.carousel.min.css')}}">
-      <link rel="stylesheet" href="{{asset('front/css/owl.theme.default.min.css')}}">
+      <link rel="stylesheet" href="{{asset('assets/front/ss/owl.carousel.min.css')}}">
+      <link rel="stylesheet" href="{{asset('assets/front/css/owl.theme.default.min.css')}}">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
    <body>
@@ -36,17 +36,17 @@
       <div class="header_section">
          <div class="container">
             <nav class="navbar navbar-dark bg-dark">
-               <a class="logo" href="index.html"><img src="images/logo.png"></a>
+               <a class="logo" href="index.html"></a>
                <div class="search_section">
                   <ul>
-                     <li><a href="#">Log In</a></li>
-                     <li><a href="#"><img src="images/shopping-bag.png"></a></li>
-                     <li><a href="#"><img src="images/search-icon.png"></a></li>
+                     <li><a href="/login">Log In</a></li>
+                     <!-- <li><a href="#"><img src="{{asset('assets/front/images/shopping-bag.png')}}"></a></li> -->
+                     <li><a href="#"><img src="{{asset('assets/front/images/search-icon.png')}}"></a></li>
                   </ul>
                </div>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+               <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
-               </button>
+               </button> -->
                <div class="collapse navbar-collapse" id="navbarsExample01">
                   <ul class="navbar-nav mr-auto">
                      <li class="nav-item active">
@@ -77,19 +77,19 @@
                         <div class="row">
                            <div class="col-md-6">
                               <div class="taital_main">
-                                 <h4 class="banner_taital"><span class="font_size_90">50%</span> Discount Online Shop</h4>
-                                 <p class="banner_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration </p>
-                                 <div class="book_bt"><a href="#">Shop Now</a></div>
+                                 <h4 class="banner_taital"><span class="font_size_90">Pengaduan</span> Masyarakat</h4>
+                                 <p class="banner_text">Sampaikan laporan Anda</p>
+                                 <!-- <div class="book_bt"><a href="#">Shop Now</a></div> -->
                               </div>
                            </div>
                            <div class="col-md-6">
-                              <div><img src="{{asset('front/images/img-1.png')}}" class="image_1"></div>
+                              <div><img src="{{asset('assets/front/images/img-1.png')}}" class="image_1"></div>
                            </div>
                         </div>
-                        <div class="button_main"><button class="all_text">All</button><input type="text" class="Enter_text" placeholder="Enter keywords" name=""><button class="search_text">Search</button></div>
+                        <!-- <div class="button_main"><button class="all_text">All</button><input type="text" class="Enter_text" placeholder="Enter keywords" name=""><button class="search_text">Search</button></div> -->
                      </div>
                   </div>
-                  <div class="carousel-item">
+                  <!-- <div class="carousel-item">
                      <div class="container">
                         <div class="row">
                            <div class="col-md-6">
@@ -100,13 +100,13 @@
                               </div>
                            </div>
                            <div class="col-md-6">
-                              <div><img src="{{asset('front/images/img-1.png')}}" class="image_1"></div>
+                              <div><img src="{{asset('assets/front/images/img-1.png')}}" class="image_1"></div>
                            </div>
                         </div>
                         <div class="button_main"><button class="all_text">All</button><input type="text" class="Enter_text" placeholder="Enter keywords" name=""><button class="search_text">Search</button></div>
                      </div>
-                  </div>
-                  <div class="carousel-item">
+                  </div> -->
+                  <!-- <div class="carousel-item">
                      <div class="container">
                         <div class="row">
                            <div class="col-md-6">
@@ -117,18 +117,18 @@
                               </div>
                            </div>
                            <div class="col-md-6">
-                              <div><img src="{{asset('front/images/img-1.png')}}" class="image_1"></div>
+                              <div><img src="{{asset('assets/front/images/img-1.png')}}" class="image_1"></div>
                            </div>
                         </div>
                         <div class="button_main"><button class="all_text">All</button><input type="text" class="Enter_text" placeholder="Enter keywords" name=""><button class="search_text">Search</button></div>
-                     </div>
+                     </div> -->
                   </div>
                </div>
                <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-               <i class=""><img src="{{asset('front/images/left-icon.png')}}"></i>
+               <i class=""><img src="{{asset('assets/front/images/left-icon.png')}}"></i>
                </a>
                <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-               <i class=""><img src="{{asset('front/images/right-icon.png')}}"></i>
+               <i class=""><img src="{{asset('assets/front/images/right-icon.png')}}"></i>
                </a>
             </div>
          </div>
@@ -136,7 +136,7 @@
       </div>
       <!--header section end -->
       <!--category section start -->
-      <div class="container">
+      <!-- <div class="container">
          <div class="category_section">
             <div class="row">
                <div class="col-lg-2 col-sm-12">
@@ -178,55 +178,55 @@
          </div>
          <div class="category_section_2">
             <div class="row">
-               <div class="col-lg-4 col-sm-12">
+                <div class="col-lg-4 col-sm-12">
                   <div class="beds_section active">
                      <h1 class="bed_text">Up to 50% off | Beds</h1>
-                     <div><img src="{{asset('front/images/img-2.png')}}" class="image_2"></div>
+                     <div><img src="{{asset('assets/front/images/img-2.png')}}" class="image_2"></div>
                      <div class="seemore_bt"><a href="#">see More</a></div>
                   </div>
-               </div>
-               <div class="col-lg-4 col-sm-12">
+               </div> -->
+               <!-- <div class="col-lg-4 col-sm-12">
                   <div class="beds_section">
-                     <h1 class="bed_text">organized in style</h1>
-                     <div><img src="{{asset('front/images/img-3.png')}}" class="image_2"></div>
+                     <h1 class="bed_text">My Favorite Girl </h1>
+                     <div><img src="{{asset('assets/front/images/hany.jpg')}}" class="image_2"></div>
                      <div class="seemore_bt"><a href="#">see More</a></div>
                   </div>
                </div>
                <div class="col-lg-4 col-sm-12">
                   <div class="beds_section">
                      <h1 class="bed_text">Refurbished mixer</h1>
-                     <div><img src="{{asset('front/images/img-4.png')}}" class="image_2"></div>
+                     <div><img src="{{asset('assets/front/images/img-4.png')}}" class="image_2"></div>
                      <div class="seemore_bt"><a href="#">see More</a></div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
+      </div>  -->
       <!-- category section end -->
       <!-- beauty product section start -->
-      <div class="beauty_section layout_padding">
+      <!-- <div class="beauty_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-lg-4 col-sm-12">
                   <div class="beauty_box">
                      <h1 class="bed_text">Beauty products</h1>
-                     <div><img src="{{asset('front/images/img-5.png')}}" class="image_3"></div>
+                     <div><img src="{{asset('assets/front/images/img-5.png')}}" class="image_3"></div>
                      <div class="seemore_bt"><a href="#">see More</a></div>
                   </div>
                </div>
                <div class="col-lg-8 col-sm-12">
                   <div class="beauty_box_1">
                      <h1 class="bed_text_1">Explore trending electronics</h1>
-                     <div><img src="{{asset('front/images/img-6.png')}}" class="image_3"></div>
+                     <div><img src="{{asset('assets/front/images/img-6.png')}}" class="image_3"></div>
                      <div class="seemore_bt_1"><a href="#">see More</a></div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- beauty product section end -->
       <!-- product section start -->
-      <div class="product_section layout_padding">
+      <!-- <div class="product_section layout_padding">
          <div class="container">
             <h1 class="feature_taital">FEATURED PRODUCTS</h1>
             <p class="feature_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
@@ -235,24 +235,24 @@
                   <div class="col-sm-5">
                      <div class="feature_box">
                         <h1 class="readable_text">Readable content of</h1>
-                        <div><img src="{{asset('front/images/img-7.png')}}" class="image_7"></div>
+                        <div><img src="{{asset('assets/front/images/img-7.png')}}" class="image_7"></div>
                      </div>
                      <div class="feature_box_1">
                         <h1 class="readable_text">Readable content of</h1>
-                        <div><img src="{{asset('front/images/img-7.png')}}" class="image_7"></div>
+                        <div><img src="{{asset('assets/front/images/img-7.png')}}" class="image_7"></div>
                      </div>
                   </div>
                   <div class="col-sm-7">
                      <div class="feature_box_2">
                         <h1 class="readable_text">Readable content of</h1>
-                        <div><img src="{{asset('front/images/img-8.png')}}" class="image_8"></div>
+                        <div><img src="{{asset('assets/front/images/img-8.png')}}" class="image_8"></div>
                         <div class="seemore_bt"><a href="#">see More</a></div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- product section end -->
       <!-- client section start -->
       <div class="client_section layout_padding">
@@ -260,51 +260,17 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
-                     <h1 class="feature_taital">what is says our customer</h1>
-                     <p class="feature_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
+                     <h1 class="feature_taital">Submit your report</h1>
                      <div class="client_section_2">
-                        <div class="image_9"><img src="images/img-9.png"></div>
                         <h3 class="nolmal_text">Normal distribution</h3>
                         <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-                        <div class="image_9"><img src="{{asset('front/images/icon-10.png')}}"></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="feature_taital">FEATURED PRODUCTS</h1>
-                     <p class="feature_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
-                     <div class="client_section_2">
-                        <div class="image_9"><img src="images/img-9.png"></div>
-                        <h3 class="nolmal_text">Normal distribution</h3>
-                        <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-                        <div class="image_9"><img src="{{asset('front/images/icon-10.png')}}"></div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="feature_taital">FEATURED PRODUCTS</h1>
-                     <p class="feature_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
-                     <div class="client_section_2">
-                        <div class="image_9"><img src="images/img-9.png"></div>
-                        <h3 class="nolmal_text">Normal distribution</h3>
-                        <p class="ipsum_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look</p>
-                        <div class="image_9"><img src="{{asset('front/images/icon-10.png')}}"></div>
+                        <div class="image_9"><img src="{{asset('assets/front/images/icon-10.png')}}"></div>
                      </div>
                   </div>
                </div>
             </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class=""><img src="{{asset('front/images/left-icon.png')}}"></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class=""><img src="{{asset('front/images/right-icon.png')}}"></i>
-            </a>
          </div>
       </div>
-      <!-- client section end -->
-      <!-- newsletter section start -->
       <div class="newsletter_section layout_padding">
          <div class="container">
             <h6 class="conect_text">Connect to caraft</h6>
@@ -318,8 +284,6 @@
             </div>
          </div>
       </div>
-      <!-- newsletter section end -->
-      <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="row">
@@ -341,10 +305,10 @@
                      <p class="call_text"><a href="#">demo@gmail.com</a></p>
                      <div class="social_icon">
                         <ul>
-                           <li><a href="#"><img src="{{asset('front/images/fb-icon.png')}}"></a></li>
-                           <li><a href="#"><img src="{{asset('front/images/twitter-icon.png')}}"></a></li>
-                           <li><a href="#"><img src="{{asset('front/images/linkedin-icon.png')}}"></a></li>
-                           <li><a href="#"><img src="{{asset('front/images/instagram-icon.png')}}"></a></li>
+                           <li><a href="#"><img src="{{asset('assets/front/images/fb-icon.png')}}"></a></li>
+                           <li><a href="#"><img src="{{asset('assets/front/images/twitter-icon.png')}}"></a></li>
+                           <li><a href="#"><img src="{{asset('assets/front/images/linkedin-icon.png')}}"></a></li>
+                           <li><a href="#"><img src="{{asset('assets/front/images/instagram-icon.png')}}"></a></li>
                         </ul>
                      </div>
                   </div>
@@ -358,14 +322,14 @@
       </div>
       <!-- footer section end -->
       <!-- Javascript files-->
-      <script src="{{asset('front/js/jquery.min.js')}}"></script>
-      <script src="{{asset('front/js/popper.min.js')}}"></script>
-      <script src="{{asset('front/js/bootstrap.bundle.min.js')}}"></script>
-      <script src="{{asset('front/js/jquery-3.0.0.min.js')}}"></script>
-      <script src="{{asset('front/js/plugin.js')}}"></script>
+      <script src="{{asset('assets/front/js/jquery.min.js')}}"></script>
+      <script src="{{asset('assets/front/js/popper.min.js')}}"></script>
+      <script src="{{asset('assets/front/js/bootstrap.bundle.min.js')}}"></script>
+      <script src="{{asset('assets/front/js/jquery-3.0.0.min.js')}}"></script>
+      <script src="{{asset('assets/front/js/plugin.js')}}"></script>
       <!-- sidebar -->
-      <script src="{{asset('front/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
-      <script src="{{asset('front/js/custom.js')}}"></script>
+      <script src="{{asset('assets/front/js/jquery.mCustomScrollbar.concat.min.js')}}"></script>
+      <script src="{{asset('assets/front/js/custom.js')}}"></script>
       <!-- javascript --> 
       <script src="js/owl.carousel.js"></script>
       <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> 

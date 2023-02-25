@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Pengaduan;
 use Illuminate\Http\Request;
-use App\Models\User;
-use Illuminate\Support\Facades\Storage;
 
-class UserController extends Controller
+class PengaduanController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,10 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $user = User::all();
-
-        // dd($user);
-        return view('user.index', compact('user'));
+        //
     }
 
     /**
@@ -45,10 +41,10 @@ class UserController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Pengaduan  $pengaduan
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Pengaduan $pengaduan)
     {
         //
     }
@@ -56,10 +52,10 @@ class UserController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Pengaduan  $pengaduan
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Pengaduan $pengaduan)
     {
         //
     }
@@ -68,39 +64,22 @@ class UserController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Pengaduan  $pengaduan
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Pengaduan $pengaduan)
     {
-        $user = User::find($id);
-
-        $user->update($request->all());
-        if ($request->hasFile('avatar')) {
-            $request->file('avatar')->move('public/profile', $request->file('avatar')->getClientOriginalName());
-            $user->avatar = $request->file('avatar')->getClientOriginalName();
-            $user->save();
-        }
-        // dd($user);
-
-        return redirect(route('user.profile', Auth()->user()->id))->with('sukses', 'Data berhasil diupdate');
+        //
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Pengaduan  $pengaduan
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Pengaduan $pengaduan)
     {
-        $user = user::find($id);
-
-        $user->delete();
-    }
-
-    public function profile($id)
-    {
-        return view('user.profile');
+        //
     }
 }

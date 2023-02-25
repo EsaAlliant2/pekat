@@ -9,9 +9,10 @@ use App\Http\Controllers\{
 };
 
 Route::get('/', function () {
-  return view('welcome');
+  return view('/front/index');
 });
-Route::get('/', [AuthController::class, 'login'])->name('login');
+// Route::get('/', [AuthController::class, 'login'])->name('login');
+Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/postlogin', [AuthController::class, 'postlogin'])->name('postlogin');
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::get('/logout', [AuthController::class, 'logout'])->name('logout');

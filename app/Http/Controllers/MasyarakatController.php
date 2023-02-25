@@ -14,7 +14,8 @@ class MasyarakatController extends Controller
      */
     public function index()
     {
-        //
+        $user = Auth::user()->nik;
+        return view('pages');
     }
 
     /**

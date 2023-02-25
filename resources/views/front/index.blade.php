@@ -83,7 +83,7 @@
                               </div>
                            </div>
                            <div class="col-md-6">
-                              <div><img src="{{asset('assets/front/images/img-1.png')}}" class="image_1"></div>
+                              <div><img src="{{asset('assets/front/images/layananpengaduan.png')}}" class="image_1"></div>
                            </div>
                         </div>
                         <!-- <div class="button_main"><button class="all_text">All</button><input type="text" class="Enter_text" placeholder="Enter keywords" name=""><button class="search_text">Search</button></div> -->
@@ -124,137 +124,10 @@
                      </div> -->
                   </div>
                </div>
-               <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-               <i class=""><img src="{{asset('assets/front/images/left-icon.png')}}"></i>
-               </a>
-               <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-               <i class=""><img src="{{asset('assets/front/images/right-icon.png')}}"></i>
-               </a>
             </div>
          </div>
          <!--banner section end -->
       </div>
-      <!--header section end -->
-      <!--category section start -->
-      <!-- <div class="container">
-         <div class="category_section">
-            <div class="row">
-               <div class="col-lg-2 col-sm-12">
-                  <h1 class="category_text">Category</h1>
-               </div>
-               <div class="col-lg-10 col-sm-12 main">
-                  <div class="col">
-                     <div class="box_main">
-                        <div class="icon_1"></div>
-                        <h4 class="fashion_text active">New Fashion</h4>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="box_main">
-                        <div class="icon_2"></div>
-                        <h4 class="fashion_text">Clothing</h4>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="box_main">
-                        <div class="icon_3"></div>
-                        <h4 class="fashion_text">Watches</h4>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="box_main">
-                        <div class="icon_4"></div>
-                        <h4 class="fashion_text">Accessories</h4>
-                     </div>
-                  </div>
-                  <div class="col">
-                     <div class="box_main">
-                        <div class="icon_5"></div>
-                        <h4 class="fashion_text">Sweaters & Jackets</h4>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="category_section_2">
-            <div class="row">
-                <div class="col-lg-4 col-sm-12">
-                  <div class="beds_section active">
-                     <h1 class="bed_text">Up to 50% off | Beds</h1>
-                     <div><img src="{{asset('assets/front/images/img-2.png')}}" class="image_2"></div>
-                     <div class="seemore_bt"><a href="#">see More</a></div>
-                  </div>
-               </div> -->
-               <!-- <div class="col-lg-4 col-sm-12">
-                  <div class="beds_section">
-                     <h1 class="bed_text">My Favorite Girl </h1>
-                     <div><img src="{{asset('assets/front/images/hany.jpg')}}" class="image_2"></div>
-                     <div class="seemore_bt"><a href="#">see More</a></div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-sm-12">
-                  <div class="beds_section">
-                     <h1 class="bed_text">Refurbished mixer</h1>
-                     <div><img src="{{asset('assets/front/images/img-4.png')}}" class="image_2"></div>
-                     <div class="seemore_bt"><a href="#">see More</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>  -->
-      <!-- category section end -->
-      <!-- beauty product section start -->
-      <!-- <div class="beauty_section layout_padding">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-4 col-sm-12">
-                  <div class="beauty_box">
-                     <h1 class="bed_text">Beauty products</h1>
-                     <div><img src="{{asset('assets/front/images/img-5.png')}}" class="image_3"></div>
-                     <div class="seemore_bt"><a href="#">see More</a></div>
-                  </div>
-               </div>
-               <div class="col-lg-8 col-sm-12">
-                  <div class="beauty_box_1">
-                     <h1 class="bed_text_1">Explore trending electronics</h1>
-                     <div><img src="{{asset('assets/front/images/img-6.png')}}" class="image_3"></div>
-                     <div class="seemore_bt_1"><a href="#">see More</a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- beauty product section end -->
-      <!-- product section start -->
-      <!-- <div class="product_section layout_padding">
-         <div class="container">
-            <h1 class="feature_taital">FEATURED PRODUCTS</h1>
-            <p class="feature_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking</p>
-            <div class="product_section_2">
-               <div class="row">
-                  <div class="col-sm-5">
-                     <div class="feature_box">
-                        <h1 class="readable_text">Readable content of</h1>
-                        <div><img src="{{asset('assets/front/images/img-7.png')}}" class="image_7"></div>
-                     </div>
-                     <div class="feature_box_1">
-                        <h1 class="readable_text">Readable content of</h1>
-                        <div><img src="{{asset('assets/front/images/img-7.png')}}" class="image_7"></div>
-                     </div>
-                  </div>
-                  <div class="col-sm-7">
-                     <div class="feature_box_2">
-                        <h1 class="readable_text">Readable content of</h1>
-                        <div><img src="{{asset('assets/front/images/img-8.png')}}" class="image_8"></div>
-                        <div class="seemore_bt"><a href="#">see More</a></div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-      <!-- product section end -->
-      <!-- client section start -->
       <div class="client_section layout_padding">
          <div id="main_slider" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">

@@ -16,14 +16,14 @@ return new class extends Migration
         Schema::create('pengaduan', function (Blueprint $table) {
             $table->id('id_pengaduan');
             $table->date('tgl_pengaduan');
-            $table->char('fk_nik', 16);
+            $table->char('nik', 16);
             $table->text('isi_laporan');
             $table->string('foto');
             $table->enum('status', ['0', 'proses', 'selesai']);
             $table->timestamps();
 
             //membuat foreign key
-            $table->foreign('fk_nik')->references('nik')->on('masyarakat');
+            $table->foreign('nik')->references('nik')->on('masyarakat');
         });
     }
 

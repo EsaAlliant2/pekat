@@ -31,10 +31,18 @@
               <div class="card-header"><h4>Register</h4></div>
 
               <div class="card-body">
-                <form method="POST">
+                <form method="POST" action="{{ route('register') }}">
+                  @csrf
+
+                  <!-- NIK -->
+                  <div class="form-group col-12">
+                    <label for="nik">NIK</label>
+                    <input id="nik" name="nik" type="text" class="form-control" name="nik" :value="old('nik')" autofocus>
+                  </div>
+
                   <div class="form-group col-12">
                     <label for="nama">Nama</label>
-                    <input id="nama" name="nama" type="text" class="form-control" name="frist_name" autofocus>
+                    <input id="nama" name="nama" type="text" class="form-control" name="nama" autofocus>
                   </div>
 
                   <div class="form-group col-12">
@@ -63,7 +71,7 @@
               </div>
             </div>
             <div class="simple-footer">
-              Copyright &copy; Veri Iswanto {{ date('Y') }}
+              Copyright &copy; esa alliant{{ date('Y') }}
             </div>
           </div>
         </div>

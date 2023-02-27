@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Auth;
 use Illuminate\Http\Request;
 
 use App\Http\Controllers\Controller;
+use App\Http\Request\Auth\LoginRequest;
+use App\Providers\RouteServisProvider;
 use Illuminate\Support\Facades\Auth;
 
 class AuthController extends Controller
@@ -28,6 +30,14 @@ class AuthController extends Controller
         return redirect(route('login'))->with('gagal', 'Username atau Password salah');
     }
 
+    public function store(LoginRequest $request)
+    {
+        $request->autenticate();
+
+        $request->session()->regenerate();
+        
+        return redirect(RouteServiceProvider::HOME);
+    }
     public function logout()
     {
         Auth::logout();
@@ -38,5 +48,16 @@ class AuthController extends Controller
     public function register()
     {
         return view('auth.register');
+    }
+
+    public function destroy(Request $request)
+    {
+        Auth::guard('web')->logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        return redirect('/');
     }
 }

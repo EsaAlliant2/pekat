@@ -41,7 +41,8 @@
                   <ul>
                      <li><a href="/login">Log In</a></li>
                      <!-- <li><a href="#"><img src="{{asset('assets/front/images/shopping-bag.png')}}"></a></li> -->
-                     <li><a href="#"><img src="{{asset('assets/front/images/search-icon.png')}}"></a></li>
+
+                     <li><a href="/register">Register</a></li>
                   </ul>
                </div>
                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">

@@ -8,4 +8,14 @@ use Illuminate\Database\Eloquent\Model;
 class petugas extends Model
 {
     use HasFactory;
+    
+    protected $primaryKey = 'id_petugas';
+
+    protected $fillabel = [
+        'nama_petugas',
+        'username',
+        'password',
+        'telp',
+        'level',
+    ];
 }
